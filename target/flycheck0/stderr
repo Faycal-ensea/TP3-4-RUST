@@ -1,0 +1,89 @@
+   0.296328700s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="encoder_example"}: cargo::core::compiler::fingerprint: fingerprint error for tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea)/Check { test: true }/TargetInner { name: "encoder_example", doc: true, ..: with_path("C:\\Users\\Faycal2\\rust\\tp3\\tp3_ensea\\src\\bin\\encoder_example.rs", Edition2021) }
+   0.296387300s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="encoder_example"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\.fingerprint\tp3-20c96f992c2c34c5\test-bin-encoder_example`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.314897800s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="gamepad_example"}: cargo::core::compiler::fingerprint: fingerprint error for tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea)/Check { test: true }/TargetInner { name: "gamepad_example", doc: true, ..: with_path("C:\\Users\\Faycal2\\rust\\tp3\\tp3_ensea\\src\\bin\\gamepad_example.rs", Edition2021) }
+   0.314931800s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="gamepad_example"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\.fingerprint\tp3-3793823a95400165\test-bin-gamepad_example`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.317686600s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="tp3"}: cargo::core::compiler::fingerprint: fingerprint error for tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea)/Check { test: true }/TargetInner { name: "tp3", doc: true, ..: with_path("C:\\Users\\Faycal2\\rust\\tp3\\tp3_ensea\\src\\main.rs", Edition2021) }
+   0.317717700s  INFO prepare_target{force=false package_id=tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea) target="tp3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\.fingerprint\tp3-d1be300dbebbadfe\test-bin-tp3`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking tp3 v0.1.0 (C:\Users\Faycal2\rust\tp3\tp3_ensea)
+error: could not compile `tp3` (bin "tp3" test) due to 1 previous error; 4 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `tp3` (bin "gamepad_example" test) due to 1 previous error
+error: could not compile `tp3` (bin "encoder_example" test) due to 1 previous error

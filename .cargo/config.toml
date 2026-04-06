@@ -1,0 +1,12 @@
+[target.thumbv7em-none-eabihf]
+runner = "probe-rs run --chip STM32L476RG --protocol swd"
+rustflags = [
+  "-C", "link-arg=-Tlink.x",   # Indispensable pour démarrer un processeur ARM
+  "-C", "link-arg=-Tdefmt.x",  # Indispensable pour afficher les logs defmt
+]
+
+[build]
+target = "thumbv7em-none-eabihf"
+
+[env]
+DEFMT_LOG = "trace"

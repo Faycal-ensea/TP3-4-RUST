@@ -1,0 +1,1 @@
+C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\gamepad_example: C:\Users\Faycal2\rust\tp3\tp3_ensea\src\bin\gamepad_example.rs C:\Users\Faycal2\rust\tp3\tp3_ensea\src\gamepad.rs

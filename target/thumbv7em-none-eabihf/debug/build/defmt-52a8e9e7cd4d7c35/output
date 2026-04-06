@@ -1,0 +1,3 @@
+cargo:rustc-link-search=C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\build\defmt-52a8e9e7cd4d7c35\out
+cargo:rustc-check-cfg=cfg(c_variadic)
+cargo:rustc-check-cfg=cfg(no_cas)

@@ -1,0 +1,1 @@
+C:\Users\Faycal2\rust\tp3\tp3_ensea\target\thumbv7em-none-eabihf\debug\encoder_example: C:\Users\Faycal2\rust\tp3\tp3_ensea\src\bin\encoder_example.rs C:\Users\Faycal2\rust\tp3\tp3_ensea\src\encoder.rs
