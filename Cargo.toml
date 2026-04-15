@@ -2,6 +2,7 @@
 name = "tp3"
 version = "0.1.0"
 edition = "2021"
+default-run = "tp3"
 
 [dependencies]
 embassy-stm32 = { version = "0.1.0", features = ["defmt", "stm32l476rg", "unstable-pac", "memory-x", "time-driver-tim5", "exti"] }
@@ -16,6 +17,7 @@ cortex-m-rt = "0.7.3"
 defmt = "0.3"
 defmt-rtt = "0.4"
 panic-probe = { version = "0.3", features = ["print-defmt"] }
+embassy-sync = "0.8.0"
 
 [profile.release]
 debug = 2
