@@ -45,6 +45,7 @@ src/
 ├── encoder.rs    # Driver pour l'encodeur rotatif utilisant l'interface QEI et le PAC
 ├── stepper.rs    # Driver pour le moteur pas-à-pas utilisant un Timer PWM
 └── gamepad.rs    # Driver pour la lecture du Gamepad
+```
 
 ## 🛠️ Comment lancer le projet ?
 
