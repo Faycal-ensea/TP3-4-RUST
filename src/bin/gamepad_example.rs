@@ -39,7 +39,7 @@ async fn main(_spawner: Spawner) {
 
         // Exemple d'utilisation de is_pressed() seul
         if gamepad.is_pressed(Button::Center) {
-            defmt::info!("BINGO : Le bouton central est pressé !");
+            defmt::info!("Le bouton central est pressé ");
         }
 
         // On patiente 500ms pour ne pas inonder le terminal de messages
